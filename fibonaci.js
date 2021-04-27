@@ -1,9 +1,7 @@
 
 function SeriesFibonacci(n) {
-    if (n == 0){
-        return 0}
-    if (n == 1){
-        return 1}
+    if (n == 0){return 0}
+    if (n == 1){return 1}
     return SeriesFibonacci(n-1) + SeriesFibonacci(n-2)}
 
 const terminal = require('readline');
